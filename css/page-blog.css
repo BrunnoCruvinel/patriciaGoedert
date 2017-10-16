@@ -1,0 +1,197 @@
+#blog {
+    padding-top: 120px;
+}
+
+#postagem-principal {
+    padding-top: 120px;
+}
+
+.separador-post {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#pesquisa-blog {
+    height: 70px;
+    width: 70%;
+    padding-top: 5px;
+    margin: auto;
+}
+
+#pesquisa-blog input {
+    height: 40px;
+    width: 90%;
+    margin-top: 10px;
+    border: 1px solid #f08c9e;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #fff url("../img/lupa.png") no-repeat right 7px center;
+}
+
+#pesquisa-blog:after {
+    padding-top: 8px;
+}
+
+#categorias {
+    color: #fff;
+    width: 80%;
+    margin: auto;
+}
+
+#categorias a {
+    text-decoration: none;
+    color: #713821;
+}
+
+#titulo-categoria {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+    -webkit-backface-visibility: hidden;
+}
+
+#categorias .items-categoria {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#blog-instagram {
+    width: 80%;
+    margin: auto;
+}
+
+#blog-instagram-imagens > div {
+    margin: 30px;
+}
+
+.blog-post-compartilhe {
+    font-size: 20px;
+    font-family: 'LavanderiaRegular';
+}
+
+.blog-post-compartilhe img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.titulo-comentario {
+    font-size: 28px;
+    font-family: 'LavanderiaRegular';
+    font-weight: 600;
+}
+
+#post-comentarios .faixa-listrada-rosa {
+    height: 140px;
+    background: repeating-linear-gradient(
+            90deg,
+            #f8eff0,
+            #f8eff0 20px,
+            #f6e3e5 20px,
+            #f6e3e5 40px
+    );
+    -webkit-box-shadow: 0px 0px 23px 0px rgb(153, 153, 153);
+    -moz-box-shadow: 0px 0px 23px 0px rgb(153, 153, 153);
+    box-shadow: 0px 0px 23px 0px rgb(153, 153, 153);
+
+    padding-top: 8px;
+}
+
+#post-comentarios #texto-atencao:after {
+    padding-top: 10px;
+}
+
+#post-comentarios #texto-atencao > span {
+    justify-content: center;
+}
+
+.blog-post-comentar textarea {
+    width: 100%;
+    height: 100%;
+}
+
+.opcoes-comentario span:before {
+    background-color: #a8a8a8;
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border-radius: 100%;
+    content: '';
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.detalhe-separador-comentario {
+
+}
+
+.detalhe-bolinho {
+    position: absolute;
+    top: -118%;
+    left: -12%
+}
+
+#titulo-instagram {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+
+#titulo-instagram > span {
+    display: flex;
+    align-items: center;
+}
+
+#titulo-instagram:after {
+    margin-bottom: 5px;
+}
+
+#texto-atencao {
+    height: 700px;
+}
+
+#texto-atencao .texto-atencao-conteudo {
+    padding: 14px;
+}
+
+/*.box {
+    position: relative;
+    background: transparent;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 10px;
+    color: rgba(0,0,0, 1);
+    text-shadow: 0 10px 0 #fff;
+    line-height: 1.5;
+    margin: 60px auto;
+}
+
+
+.box:before, .box:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    transform: rotate(-3deg);
+}
+
+.box:after {
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+}*/

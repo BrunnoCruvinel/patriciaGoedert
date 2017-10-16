@@ -1,0 +1,182 @@
+#docaria {
+
+}
+
+#docaria #destaque-endereco {
+    width: 470px;
+    margin-left: -22px;
+    margin-bottom: -100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    z-index: 2;
+}
+
+#docaria #destaque-endereco div:first-of-type {
+    padding-top: 5px;
+    padding-left: 0;
+}
+
+#loja-mais-proxima {
+    padding: 20px;
+    height: 250px;
+    width: 340px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+#loja-mais-proxima form {
+    padding: 60px 20px 0px 20px;
+
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+
+
+#encontre-loja {
+    -webkit-backface-visibility: hidden;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: #713821;
+    height: 45px;
+    position: absolute;
+    margin-top: -19px;
+    margin-left: -65px;
+    padding: 5px 35px 10px 35px;
+    width: 400px;
+    -ms-transform: rotate(-14deg); /* IE 9 */
+    -webkit-transform: rotate(-14deg); /* Chrome, Safari, Opera */
+    transform: rotate(-14deg);
+    text-align: center;
+}
+
+#encontre-loja span {
+
+}
+
+#encontre-loja:after {
+    margin-bottom: 5px;
+}
+
+#fazer-encomenda-docaria {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    color: white;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#loja-mais-proxima .sombra-botao:after {
+    box-shadow: 0 8px 7px -3px rgba(128, 128, 128, 0.35);
+}
+
+#loja-mais-proxima.tracejado-detalhe:after {
+    display: flex !important;
+    flex-flow: column wrap !important;
+}
+
+#destaque-endereco.faixa-listrada-verde {
+    background: repeating-linear-gradient(
+            90deg,
+            #89c7bc,
+            #89c7bc 13px,
+            #a0d8cd 13px,
+            #a0d8cd 26px
+    );
+}
+
+#endereco-redesocial {
+    width: 155px;
+    height: 55px;
+    padding: 3px 20px 10px 10px;
+    position: absolute;
+    z-index: 3;
+
+    -ms-transform: rotate(-35deg); /* IE 9 */
+    -webkit-transform: rotate(-35deg); /* Chrome, Safari, Opera */
+    transform: rotate(-35deg);
+
+    -webkit-backface-visibility: hidden;
+    margin-left: -73px;
+    margin-top: -14px;
+}
+
+#endereco-redesocial img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#endereco-redesocial:after {
+    margin-bottom: 3px;
+}
+
+#docaria-carousel {
+    width: 450px;
+    text-align: right;
+}
+
+#docaria #docaria-carousel .owl-dots {
+    bottom: 0;
+    position: relative;
+}
+
+#docaria-carousel.owl-carousel {
+    z-index: 1;
+    width: 445px;
+}
+
+#docaria #docaria-carousel.owl-theme .owl-dots .owl-dot span {
+    background: url("../img/coracao_transparente2.png") no-repeat !important;
+    background-size: 16px !important;
+    width: 20px !important;
+    height: 30px !important;
+    margin: 5px 7px;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 0 !important;
+}
+
+#docaria #docaria-carousel.owl-theme .owl-dots .owl-dot.active span, #docaria-carousel.owl-theme .owl-dots .owl-dot:hover span {
+    background: url("../img/coracao.png") no-repeat !important;
+    background-size: 16px !important;
+}
+
+#docaria .titulo-destaque-coracao:after {
+    top: 0;
+    left: 80%;
+}
+
+#docaria-cardapio {
+    width: 150px;
+    height: 50px;
+    padding: 5px 10px 10px 10px;
+    text-align: center;
+    background-color: #f39eb0;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 25px;
+
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+#docaria-cardapio:after {
+    margin-bottom: 5px;
+}
+
+#a-loja {
+    padding-right: 50px;
+}

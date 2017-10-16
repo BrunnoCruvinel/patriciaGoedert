@@ -1,0 +1,72 @@
+#franqueado {
+    background-color: #fef5f6;
+}
+
+#botao-franqueado {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    bottom: 0;
+    position: relative;
+    width: 340px;
+    margin-left: -28px;
+    margin-bottom: 50px;
+
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+
+    -webkit-backface-visibility: hidden;
+}
+
+#como-ser-franqueado {
+    margin: 40px;
+}
+
+#como-ser-franqueado > div {
+    margin-bottom: 30px;
+}
+
+#como-ser-franqueado .titulo-destaque-grande {
+    font-size: 65px;
+
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+
+    padding-bottom: 20px;
+}
+
+.franqueado-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#franqueado-texto-principal {
+    margin-bottom: 50px;
+}
+
+.franqueado-item-titulo {
+    position: relative;
+    font-family: 'LavanderiaStudy';
+    font-size: 24px;
+}
+
+.franqueado-item-titulo:before {
+    content: '';
+    display: inline-block;
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    margin-left: -30px;
+    background: url("../img/coracao_ativado.png") no-repeat;
+}
+
+.franqueado-item-texto {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#franqueado .borda-destaque {
+    padding-bottom: 0 !important;
+}

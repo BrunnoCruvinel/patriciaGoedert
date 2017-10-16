@@ -1,0 +1,86 @@
+#quem-somos {
+    background-color: #fef5f6;
+}
+
+#quem-somos-encomenda {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#quem-somos-encomenda-endereco {
+    font-size: 16px;
+    padding: 20px 0 12px 0;
+}
+
+#quem-somos-encomenda-telefone {
+    font-size: 25px;
+    padding: 12px 0 12px 0;
+}
+
+#botao-franquias-brasil {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    height: 75px;
+    font-size: 26px;
+    bottom: 0;
+    position: relative;
+    color: #fff;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+    -webkit-backface-visibility: hidden;
+    margin-bottom: 100px;
+}
+
+#botao-franquias-brasil:after {
+    margin-bottom: 5px;
+}
+
+#botao-franquias-brasil span {
+    font-size: 40px;
+    font-family: LavanderiaRegular;
+    display: flex;
+}
+
+.destaque-coracao-before:before {
+    content: '';
+    background-image: url('../img/coracao.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: relative;
+    margin-left: 30px;
+    left: -26px;
+    top: -7px;
+}
+
+.destaque-coracao-after:after {
+    content: '';
+    background-image: url('../img/coracao.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    height: 20px;
+    width: 20px;
+    right: 0;
+    display: block;
+    position: relative;
+    left: 100%;
+    top: 89%;
+}
+
+#franquias-brasil .sombra-botao {
+    position: relative;
+}
+
+.foto-principal {
+    -webkit-box-shadow: 0px 0px 26px 6px rgba(252,216,226,1);
+    -moz-box-shadow: 0px 0px 26px 6px rgba(252,216,226,1);
+    box-shadow: 0px 0px 26px 6px rgba(252,216,226,1);
+}
+
+#quem-somos .titulo-destaque-coracao > span:after {
+    top: -8px;
+    left: 85%;
+}

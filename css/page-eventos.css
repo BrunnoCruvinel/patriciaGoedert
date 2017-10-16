@@ -1,0 +1,56 @@
+#eventos {
+    background-color: #fef5f6;
+}
+
+#faca-sua-encomenda {
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+#fazer-encomenda {
+    width: 85%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    color: white;
+    bottom: 0;
+    position: relative;
+}
+
+#eventos #evento-carousel .owl-dots {
+    bottom: -50px;
+}
+
+#eventos #evento-carousel.owl-theme .owl-dots .owl-dot span {
+    background: url("../img/coracao_transparente2.png") no-repeat !important;
+    background-size: 16px !important;
+    width: 20px !important;
+    height: 30px !important;
+    margin: 5px 7px;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 0 !important;
+
+}
+
+#eventos #evento-carousel.owl-theme .owl-dots .owl-dot.active span, #eventos #evento-carousel.owl-theme .owl-dots .owl-dot:hover span {
+    background: url("../img/coracao.png") no-repeat !important;
+    background-size: 16px !important;
+}
+
+#destaque-endereco.tracejado-detalhe {
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#destaque-endereco.tracejado-detalhe:after {
+    padding-top: 15px;
+}
+
+#destaque-endereco {
+    -webkit-backface-visibility: visible;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}

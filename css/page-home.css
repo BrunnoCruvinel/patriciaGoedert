@@ -1,0 +1,198 @@
+#home {
+    position: relative;
+}
+
+#home-conteudo #home-encomenda-online {
+    z-index: -1;
+    background: url("../img/backgorund.png") no-repeat;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 10%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.8) 100%), url('../img/backgorund.png') no-repeat;
+    background: -webkit-gradient(top, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(55%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0.9))), url('../img/backgorund.png') no-repeat;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 10%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.9) 100%), url('../img/backgorund.png') no-repeat;
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 10%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.9) 100%), url('../img/backgorund.png') no-repeat;
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 10%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.9) 100%), url('../img/backgorund.png') no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(255, 255, 255, 0.5 ) 50%, rgba(255, 255, 255, 0.9) 100%), url('../img/backgorund.png') no-repeat;
+    background-size: 110%;
+}
+
+#encomenda-card {
+    background-image: radial-gradient(center top, ellipse cover, #fefffd, #fbfff8);
+
+}
+
+#home-encomenda-online {
+    padding-top: 60px;
+}
+
+#encomenda-imagem {
+    margin-top: -15%;
+}
+
+#encomenda-imagem > img {
+    float: right;
+}
+
+#botao-encomendar {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    color: white;
+    bottom: 0;
+    position: relative;
+}
+
+#qual-seu-momento {
+
+}
+
+.seu-momento-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 225px !important;
+    text-align: center;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+#descubra {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 23px 0px rgb(153, 153, 153);
+    -moz-box-shadow: 0px 0px 23px 0px rgb(153, 153, 153);
+    box-shadow: 0px 0px 23px 0px rgb(153, 153, 153);
+}
+
+#descubra:before {
+    margin-top: 10px;
+}
+#descubra:after {
+    padding-top: 14px;
+}
+
+
+#descubra #descubra-conteudo {
+    height: 180px;
+    padding: 1%;
+    background: repeating-linear-gradient(
+            90deg,
+            #f8eff0,
+            #f8eff0 20px,
+            #f6e3e5 20px,
+            #f6e3e5 40px
+    );
+}
+
+#descubra-conteudo .tracejado-detalhe:before {
+
+}
+
+#descubra #descubra-conteudo img {
+    position: relative;
+    margin-top: -50px;
+    z-index: 999;
+}
+
+#descubra #descubra-encontrar {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 32px;
+    color: white;
+
+}
+
+#sombra-encontrar {
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+    -webkit-backface-visibility: hidden;
+    left: 72%;
+    top: 41%;
+
+}
+
+#nossas-sugestoes {
+    margin-bottom: 60px;
+}
+
+#nossas-sugestoes .borda-destaque  {
+    padding: 10px 10px 10px 10px;
+    height: 350px;
+    margin: 20px;
+}
+
+#nossas-sugestoes .borda-destaque > span {
+    position: absolute;
+    bottom: 10%;
+    left: 36px;
+    right: 0;
+    text-align: center;
+}
+
+#seja-franqueado {
+    height: 300px;
+    width: 500px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+    float: right;
+}
+
+
+#seja-franqueado #botao-franqueado {
+    font-family: 'LavanderiaStudy', sans-serif;
+}
+
+#seja-franqueado #botao-franqueado {
+    font-family: 'LavanderiaRegular', sans-serif;
+    font-size: 42px;
+    color: white;
+    bottom: 0;
+    position: absolute;
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
+    margin-bottom: 270px;
+    margin-left: -30px;
+    -webkit-backface-visibility: hidden;
+}
+
+#seja-franqueado #botao-saiba-ser {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+    color: white;
+    bottom: 0;
+    position: absolute;
+    -ms-transform: rotate(4deg); /* IE 9 */
+    -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
+    transform: rotate(4deg);
+    height: 60px;
+    margin-left: 50px;
+    margin-bottom: -16px;
+    -webkit-backface-visibility: hidden;
+    display: flex;
+}
+
+
+#botao-saiba-ser:after {
+    padding-top: 8px;
+}
+
+#blog-post {
+    margin-top: 60px;
+}
+
+#home-blog {
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #descubra #descubra-conteudo {
+        height: 350px;
+        text-align: center;
+    }
+}
+

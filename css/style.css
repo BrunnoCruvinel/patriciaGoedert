@@ -1,0 +1,489 @@
+/*
+ * Fontes:
+ * Lavanderia - regular, study
+ * Open Sans, OpenSans Light, OpenSansSemibold
+ * Roboto-bold, RobotoCondensed-liht, roboto light, roboto-regular
+ */
+
+@import "menu.css";
+@import "rodape.css";
+@import "page-home.css";
+@import "page-cardapio.css";
+@import "page-blog.css";
+@import "page-contato.css";
+@import "page-eventos.css";
+@import "page-franqueado.css";
+@import "page-quem-somos.css";
+@import "page-docaria.css";
+
+@font-face {
+    font-family: LavanderiaStudy;
+    src: url(../fonts/Lavanderia-Sturdy.otf);
+}
+
+@font-face {
+    font-family: LavanderiaRegular;
+    src: url(../fonts/Lavanderia-Regular.woff);
+}
+
+.cor-primaria-1 {
+    color: #f08c9e;
+}
+
+.cor-primaria-2 {
+    color: #F9c4cc;
+}
+
+.cor-secundaria-1 {
+    color: #89c7bc;
+}
+
+.cor-secundaria-2 {
+    color: #a0d8cd;
+}
+
+.cor-terciaria-1 {
+    color: #713821;
+}
+
+.bg-primaria-1 {
+    background-color: #F7b9c7;
+}
+
+.bg-primaria-2 {
+    background-color: #F7b9c7;
+}
+
+.bg-secundaria-1 {
+    background-color: #89c7bc;
+}
+
+bg-secundaria-2 {
+    background-color: #a0d8cd;
+}
+
+.faixa-listrada-rosa {
+    background: repeating-linear-gradient(
+            90deg,
+            #F9c4cc,
+            #F9c4cc 20px,
+            #F7b9c7 20px,
+            #F7b9c7 40px
+    );
+}
+
+.faixa-listrada-verde {
+    background: repeating-linear-gradient(
+            90deg,
+            #89c7bc,
+            #89c7bc 20px,
+            #a0d8cd 20px,
+            #a0d8cd 40px
+    );
+}
+
+.linha-destaque {
+    background: url("../img/linha-tracejada.png") repeat-x;
+    height: 10px;
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.texto-normal {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.titulo-destaque-pequeno {
+    line-height: 1;
+    font-family: 'LavanderiaRegular';
+    font-size: 35px;
+}
+
+.titulo-destaque-medio {
+    line-height: 1;
+    font-family: 'LavanderiaRegular';
+    font-size: 45px;
+}
+
+.titulo-destaque-grande {
+    line-height: 1;
+    font-family: 'LavanderiaRegular';
+    font-size: 60px;
+}
+
+.tracejado-detalhe {
+    position: relative;
+}
+
+.borda-destaque {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/borda_superior_esquerda.png"), url("../img/borda_superior_direita.png"), url("../img/borda_inferior_esquerda.png"), url('../img/borda_inferior_direita.png');
+    background-position: left top, right top, left bottom, right bottom;
+    background-repeat: no-repeat;
+    padding: 40px 50px 40px 50px;
+}
+
+.borda-destaque img {
+    width: 100%;
+}
+
+.tracejado-detalhe:before {
+    position: absolute;
+    content: "";
+    width: 99%;
+    display: block;
+    left: 0;
+    height: 2px;
+    background: url("../img/linha-tracejada2.png") repeat-x;
+    background-size: 11px;
+    opacity: 0.7;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+.tracejado-detalhe:after {
+    position: absolute;
+    content: "";
+    width: 99%;
+    display: block;
+    bottom: 0;
+    height: 2px;
+    background: url("../img/linha-tracejada2.png") repeat-x;
+    background-size: 11px;
+    opacity: 0.7;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+
+}
+
+.tracejado-detalhe-maior:before {
+    position: absolute;
+    content: "";
+    width: 99%;
+    display: block;
+    left: 0;
+    height: 2px;
+    background: url("../img/linha-tracejada2.png") repeat-x;
+    background-size: 24px 1px;
+    opacity: 0.7;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+}
+
+.tracejado-detalhe-maior:after {
+    position: absolute;
+    content: "";
+    width: 99%;
+    display: block;
+    bottom: 0;
+    height: 2px;
+    background: url("../img/linha-tracejada2.png") repeat-x;
+    background-size: 24px 1px;
+    opacity: 0.7;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+
+}
+
+.botao-destaque-verde > span, .botao-destaque-rosa > span {
+    margin: 10px 30px 10px 30px;
+}
+
+.botao-destaque-verde:after, .botao-destaque-rosa {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.botao-destaque-verde {
+    border-radius: 0;
+    padding-right: 0;
+    padding-left: 0;
+    background: #78bab0;
+    background: -moz-linear-gradient(left, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #78bab0), color-stop(17%, #99d5cb), color-stop(50%, #99d5cb), color-stop(84%, #78bab0), color-stop(100%, #78bab0));
+    background: -webkit-linear-gradient(left, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    background: -o-linear-gradient(left, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    background: -ms-linear-gradient(left, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    background: linear-gradient(to right, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78bab0', endColorstr='#78bab0', GradientType=1 );
+    /*-webkit-box-shadow: 0px 3px 19px 0px rgb(157, 157, 157);
+    -moz-box-shadow: 0px 3px 19px 0px rgb(157, 157, 157);
+    box-shadow: 0px 3px 19px 0px rgb(157, 157, 157);*/
+    min-height: 55px;
+}
+
+#botao-encomendar {
+    width: 100%;
+}
+
+.sombra-simples {
+    -webkit-box-shadow: 0px 3px 2px 0px rgba(157,157,157,1);
+    -moz-box-shadow: 0px 3px 2px 0px rgba(157,157,157,1);
+    box-shadow: 0px 3px 2px 0px rgba(157,157,157,1);
+}
+
+.sombra-botao {
+    position: absolute;
+}
+
+.sombra-botao:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #808080;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 8px 5px -3px #808080;
+    z-index: -1;
+    border-radius: 30%;
+}
+
+
+.botao-destaque-rosa {
+    border-radius: 0;
+    padding-right: 0;
+    padding-left: 0;
+    background: #e2768d;
+    background: -moz-linear-gradient(left, #ed8ea2 0%, rgba(247, 180, 198, 0.98) 14%, #ffbecc 50%, #ed8ea2 85%, #e2768d 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #ed8ea2), color-stop(14%, #f7b4c6), color-stop(50%, #ffbecc), color-stop(85%, #ed8ea2), color-stop(100%, #e2768d));
+    background: -webkit-linear-gradient(left, #ed8ea2 0%, #f7b4c6 14%, #ffbecc 50%, #ed8ea2 85%, #e2768d 100%);
+    background: -o-linear-gradient(left, #ed8ea2 0%, #f7b4c6 14%, #ffbecc 50%, #ed8ea2 85%, #e2768d 100%);
+    background: -ms-linear-gradient(left, #ed8ea2 0%, #f7b4c6 14%, #ffbecc 50%, #ed8ea2 85%, #e2768d 100%);
+    background: linear-gradient(to right, #ed8ea2 0%, #f7b4c6 14%, #ffbecc 50%, #ed8ea2 85%, #e2768d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2768d', endColorstr='#e2768d', GradientType=1 );
+}
+
+.destaque-descricao {
+    font-size: 25px !important;
+    font-weight: 600;
+}
+
+.titulo-destaque-coracao-2 > span:before {
+    background: url("../img/coracao_titulo.png") no-repeat;
+    position: absolute;
+    display: block;
+    content: "";
+    width: 30%;
+    height: 100%;
+    top: -26px;
+    left: 76px;
+}
+
+.titulo-destaque-coracao {
+    position: relative;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+    color: #713821;
+    width: 90%;
+    z-index: 1;
+
+}
+
+.titulo-destaque-coracao > span {
+    width: 100px;
+}
+
+.titulo-destaque-coracao > span:after {
+    background: url("../img/coracao_titulo.png") no-repeat;
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: -15px;
+    left: 95%;
+}
+
+
+.titulo-destaque-coracao-menor:after {
+    background: url("../img/icon-coracao.png") no-repeat;
+    position: relative;
+    display: inline-block;
+    content: "";
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 0;
+}
+
+.receba-novidades {
+    width: 100%;
+    height: 140px;
+    background: #F7b9c7;
+
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+
+    -webkit-backface-visibility: hidden;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #713821;
+    top:50%;
+    position: relative;
+    display: flex;
+}
+
+.receba-novidades .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.receba-novidades div {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+    background: rgb(247, 185, 199);
+    background: rgba(247, 185, 199, 1);
+    background-image: url('../img/backgorund.png');
+
+}
+
+.receba-novidades div > span{
+    top: 45%;
+}
+
+.receba-novidades input {
+    margin: 10px 30px 10px 30px;
+    border: 1px solid #e2768d;
+    height: 45px;
+    max-width: 250px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.receba-novidades:after {
+    padding-top: 14px;
+}
+
+.receba-novidades #botao-assinar {
+    -ms-transform: rotate(17deg); /* IE 9 */
+    -webkit-transform: rotate(17deg); /* Chrome, Safari, Opera */
+    transform: rotate(17deg);
+    -webkit-backface-visibility: hidden;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: #713821;
+    z-index: 99;
+    display: flex;
+    top: -20px;
+}
+
+.blog-titulo {
+    font-size: 40px;
+    font-family: "LavanderiaRegular";
+    line-height: 60px;
+    margin-bottom: 40px;
+    color: #f294a5;
+}
+
+.blog-titulo a {
+    text-decoration: none;
+    color: #f294a5;
+}
+
+.blog-subtitulo {
+    font-size: 32px;
+    font-family: "LavanderiaRegular";
+    line-height: 60px;
+    margin-bottom: 60px;
+    color: #f294a5;
+}
+
+.blog-subtitulo a {
+    text-decoration: none;
+    color: #f294a5;
+}
+
+.texto-blog {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    line-height: 30px;
+    color: #4d4d4d;
+    font-size: 18px;
+}
+
+.section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.section-top {
+    margin-top: 60px;
+}
+
+.section-bottom {
+    margin-bottom: 60px;
+}
+
+
+
+.subserction {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.input-custom {
+    border: 1px solid #e2768d;
+    width: 100%;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea.input-custom {
+    min-height: 150px;
+}
+
+.titulo-encomenda {
+    margin: 0 55px 0 55px;
+}
+
+.receba-novidades .assine-receba {
+    font-family: "LavanderiaRegular";
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 800px) {
+    .receba-novidades {
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+        margin-top: 50px;
+        height: 200px;
+    }
+
+    .receba-novidades #botao-assinar {
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+        position: relative;
+    }
+
+    .receba-novidades div {
+        display: table-cell;
+        padding-left: 20px;
+        text-align: center;
+    }
+
+}
+

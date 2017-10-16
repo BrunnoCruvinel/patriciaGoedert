@@ -1,0 +1,101 @@
+#cardapio {
+
+}
+
+.item-cardapio {
+    max-width: 300px;
+}
+
+.sombra-secundaria {
+    -webkit-box-shadow: 0px 0px 56px -9px rgba(120,186,176,1);
+    -moz-box-shadow: 0px 0px 56px -9px rgba(120,186,176,1);
+    box-shadow: 0px 0px 56px -9px rgba(120,186,176,1);
+}
+
+.sombra-primaria {
+    -webkit-box-shadow: 0px 0px 56px -9px rgb(226, 118, 141);
+    -moz-box-shadow: 0px 0px 56px -9px rgb(226, 118, 141);
+    box-shadow: 0px 0px 56px -9px rgb(226, 118, 141);
+}
+
+.item-cardapio .item-cardapio-nome {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cardapio-subtitulo {
+    position: absolute;
+    left: 170px;
+    top: 60px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+#lista-cardapio {
+    margin-top: 150px;
+}
+
+#item-cardario {
+    margin-top: 150px;
+}
+
+#item-cardario-page {
+    background-color: #fef5f6;
+}
+
+#descricao-item-cardapio {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#outros-items-cardapio {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#outros-items-cardapio-lista {
+    margin-top: 60px;
+}
+
+#dados-entrega {
+    font-size: 12px;
+}
+
+#item-cardario #botao-encomendar {
+    bottom: -10px;
+}
+
+.titulo-item {
+    margin-left: 100px;
+}
+
+#item-cardario .borda-destaque {
+    margin-bottom: 80px;
+}
+
+#item-cardario-page .titulo-destaque-coracao:after {
+    top: -2px;
+    left: 82%
+}
+
+.destaque-doce-subtitulo {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#link-instagram a {
+    position: absolute;
+    text-decoration: none;
+    font-family: LavanderiaRegular;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #713821;
+
+    top: 37px;
+    left: 161px;
+
+    -ms-transform: rotate(25deg); /* IE 9 */
+    -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
+    transform: rotate(25deg);
+}

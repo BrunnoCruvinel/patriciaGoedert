@@ -1,0 +1,47 @@
+#contatos {
+    
+}
+
+#destaque-endereco {
+    height: 200px;
+    width: 70%;
+    background-color: #8e8e8e;
+    padding: 20px;
+
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+
+    -webkit-backface-visibility: hidden;
+
+    margin: auto;
+}
+
+#destaque-endereco > div {
+    margin: 15px 0 25px 0;
+    text-align: justify;
+}
+
+#destaque-endereco > div > img {
+    margin-right: 20px;
+}
+
+#enviar-comentario {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 26px;
+    color: white;
+    bottom: 0;
+    position: relative;
+    width: 110px;
+}
+
+#contatos .destaque-coracao-after:after {
+    left: 7px;
+    top: -38px;
+}
+
+#contatos .botao-enviar-contato > .destaque-coracao-after:after {
+    left: 100%;
+    top: -38px;
+}

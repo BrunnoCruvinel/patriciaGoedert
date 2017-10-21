@@ -9,7 +9,7 @@
                 </div>
             </div>
 
-            <div class="col-md-9 col-sm-12">
+            <div class="col-md-9 col-sm-12 padding-blog-assine">
                 <div class="detalhe-bolinho">
                     <img src="img/bolinho.png" alt="" style="width: 160px; position: absolute; z-index: -1;">
                 </div>
@@ -49,7 +49,7 @@
                     <div class="post">
                         <div class="row">
                             <div class="blog-titulo">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonnumy nibh euismod.
                             </div>
                             <div class="texto-blog">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis.
@@ -67,7 +67,7 @@
                     <div class="post">
                         <div class="row">
                             <div class="blog-titulo">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonnumy nibh euismod. 
                             </div>
                             <div class="texto-blog">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis.
@@ -87,8 +87,9 @@
                             <div class="borda-destaque">
                                 <img src="img/foto-doces.png" alt="">
                             </div>
+							<div class="separador-post"></div>
                             <div class="blog-titulo">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonnumy nibh euismod.
                             </div>
                             <div class="texto-blog">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis.
@@ -98,6 +99,9 @@
                             </div>
                         </div>
                     </div>
+					<div class="separador-post">
+						<img src="img/carregando.png" />
+					</div>
                 </div>
                 <div class="col-md-5">
                     <div class="row">
@@ -137,8 +141,8 @@
                     <div id="blog-instagram" class="row section">
                         <div class="col-md-12 text-center">
                             <div class="section-top">
-                                <div id="titulo-instagram" class="faixa-listrada-verde titulo-destaque-medio cor-terciaria-1 tracejado-detalhe">
-                                   <span> Instagram </span>
+                                <div id="titulo-instagram" class="faixa-listrada-instagram titulo-destaque-medio cor-terciaria-1">
+                                   
                                 </div>
                             </div>
                             <div id="blog-instagram-imagens">

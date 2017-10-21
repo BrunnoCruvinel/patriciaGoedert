@@ -39,7 +39,7 @@
 
 #rodape-conteudo #dados-contato > div {
     margin: 15px 0 25px 0;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 #rodape-conteudo #dados-contato > div > img {
@@ -83,3 +83,6 @@
     width: 100% !important;
 }
 
+#rodape-conteudo .col-md-7{
+	
+}

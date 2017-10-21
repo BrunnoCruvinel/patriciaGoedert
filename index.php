@@ -22,6 +22,7 @@
                                     <div class="titulo-encomenda titulo-destaque-medio text-center cor-primaria-1">
                                         Encomende on-line direto da fábrica
                                     </div>
+									<img class="encomenda_coracao_left" src="img/coracao.png">
                                 </div>
                                 <br/>
                                 <div id="encomenda-online-conteudo" class="row">
@@ -32,8 +33,10 @@
                                         <strong><span class="cor-primaria-2">Entregas somente na região de</span>
                                         <span class="cor-secundaria-1">Florianópolis, São José, Biguçu e Palhoça</span></strong>
                                     </div>
+									<img class="encomenda_coracao_right" src="img/coracao.png">
                                 </div>
                                 <br/>
+								<br/>
                                 <div class="row">
                                     <div class="col-md-3 col-sm-3 text-left">
                                         <img src="img/carrinho_supermercado.png" style="width: 74px">
@@ -143,13 +146,13 @@
                   <div class="row section-bottom">
                       <div class="col-md-12">
                           <div class="titulo-destaque-coracao titulo-destaque-grande section">
-                              <span class="titulo-destaque-coracao">Nossas sugestões ?</span>
+                              <span class="titulo-destaque-coracao">Nossas Sugestões</span>
                           </div>
                       </div>
                   </div>
 
                   <div class="row">
-                      <div class="col-md-6 col-sm-12">
+                      <div class="col-md-6 col-sm-12 margin-sugestoes">
                           <div class="row text-center">
                               <div class="col-md-6">
                                 <div class="borda-destaque">
@@ -163,8 +166,8 @@
                               </div>
                           </div>
                       </div>
-                      <div class="col-md-6 col-sm-12 section-top">
-                        <div id="seja-franqueado" class="faixa-listrada-verde">
+                      <div class="col-md-6 col-sm-12 margin-franqueado">
+                        <div id="seja-franqueado" class="faixa-listrada-franqueado">
                             <div class="titulo-destaque-medio ">
                                 <a href="" id="botao-franqueado" class="btn botao-destaque-rosa sombra-simples" role="button"><span>Seja um franqueado</span></a>
                             </div>
@@ -180,13 +183,13 @@
           <section id="home-blog">
               <div class="container">
                   <div class="row section">
-                      <div class="col-md-3 col-sm-12">
+                      <div class="col-md-2 col-sm-12">
                           <div class="titulo-destaque-coracao titulo-destaque-grande">
                               <span class="titulo-destaque-coracao">Blog</span>
                           </div>
                       </div>
 
-                      <div class="col-md-9 col-sm-12">
+                      <div class="col-md-10 col-sm-12">
                           <div class="receba-novidades tracejado-detalhe-maior">
                               <div class="row">
                                   <div class="col-md-9 col-sm-9 col-xs-9 receba-novidades-conteudo">

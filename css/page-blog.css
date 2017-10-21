@@ -3,7 +3,7 @@
 }
 
 #postagem-principal {
-    padding-top: 120px;
+    padding-top: 30px;
 }
 
 .separador-post {
@@ -131,19 +131,24 @@
 
 .detalhe-bolinho {
     position: absolute;
-    top: -118%;
-    left: -12%
+    top: -70%;
+    left: -8%;
+}
+
+.faixa-listrada-instagram{
+	background: url('../img/instagram_text.png') no-repeat;
 }
 
 #titulo-instagram {
-    height: 80px;
+    height: 160px;
     display: flex;
     justify-content: center;
     padding-top: 5px;
 
-    -ms-transform: rotate(-7deg); /* IE 9 */
-    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
-    transform: rotate(-7deg);
+    /*-ms-transform: rotate(-7deg); *//* IE 9 */
+    /*-webkit-transform: rotate(-7deg);*/ /* Chrome, Safari, Opera */
+    /*transform: rotate(-7deg);*/
+	background-size: 100%;
 }
 
 #titulo-instagram > span {
@@ -161,6 +166,11 @@
 
 #texto-atencao .texto-atencao-conteudo {
     padding: 14px;
+}
+
+.padding-blog-assine{
+	margin-top: -2%;
+	margin-left: -2%;
 }
 
 /*.box {

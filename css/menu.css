@@ -19,6 +19,7 @@
     padding: 0;
     margin: 0;
     display: block;
+	height: 40px;
 }
 
 #menu-items ul.menu-item > li {
@@ -29,17 +30,20 @@
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 16px;
-    height: 39px;
+    height: 40px;
 }
 
 #menu-items ul.menu-item > li > a {
     color: #fff;
     text-decoration: none;
+	height: 35px;
 }
 
 #menu-items ul.menu-item > li > a:hover {
     color: #713821;
     font-weight: bolder;
+	font-size: 18px;
+	height: 35px;
 }
 
 #menu-items .logo {

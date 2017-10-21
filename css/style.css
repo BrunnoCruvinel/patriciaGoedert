@@ -82,6 +82,10 @@ bg-secundaria-2 {
     );
 }
 
+.faixa-listrada-franqueado {
+    background: url(../img/fundo_franqueado.png) no-repeat;
+}
+
 .linha-destaque {
     background: url("../img/linha-tracejada.png") repeat-x;
     height: 10px;
@@ -196,7 +200,7 @@ bg-secundaria-2 {
 }
 
 .botao-destaque-verde > span, .botao-destaque-rosa > span {
-    margin: 10px 30px 10px 30px;
+    margin: 10px 32px 10px 32px;
 }
 
 .botao-destaque-verde:after, .botao-destaque-rosa {
@@ -223,7 +227,7 @@ bg-secundaria-2 {
 }
 
 #botao-encomendar {
-    width: 100%;
+    width: 110%;
 }
 
 .sombra-simples {
@@ -302,8 +306,13 @@ bg-secundaria-2 {
     content: "";
     width: 100%;
     height: 100%;
-    top: -15px;
-    left: 95%;
+    top: -10px;
+    left: 90%;
+}
+
+#blog .titulo-destaque-coracao > span:after{
+	top: 0px;
+    left: 65%;
 }
 
 
@@ -320,37 +329,56 @@ bg-secundaria-2 {
 
 .receba-novidades {
     width: 100%;
-    height: 140px;
-    background: #F7b9c7;
-
-    -ms-transform: rotate(-5deg); /* IE 9 */
-    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
-    transform: rotate(-5deg);
-
+    height: 178px;
+    /* background: #F7b9c7; */
+    -ms-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
     -webkit-backface-visibility: hidden;
-
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
     color: #713821;
-    top:50%;
+    top: 50%;
     position: relative;
-    display: flex;
+    /* display: flex; */
+    margin-left: 5%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+
+#blog .receba-novidades{
+	-ms-transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+}
+
+.receba-novidades-conteudo{
+	margin-top: 8%;
+    -ms-transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
+    transform: rotate(-4deg);
 }
 
 .receba-novidades .row {
     margin-left: 0;
     margin-right: 0;
+	background: url(../img/blog_assine_receba.png) no-repeat;
+    height: 215px;
 }
 
 .receba-novidades div {
-    display: flex;
+    /*display: flex;
     align-items: center;
     padding-left: 20px;
 
     background: rgb(247, 185, 199);
-    background: rgba(247, 185, 199, 1);
-    background-image: url('../img/backgorund.png');
+    background: rgba(247, 185, 199, 1);*/
+    
 
+}
+
+.receba-novidades #botao-assinar span{
+	padding-left: 10px;
 }
 
 .receba-novidades div > span{
@@ -358,13 +386,22 @@ bg-secundaria-2 {
 }
 
 .receba-novidades input {
-    margin: 10px 30px 10px 30px;
+    margin: 10px 30px 10px 50px;
     border: 1px solid #e2768d;
-    height: 45px;
-    max-width: 250px;
+    height: 50px;
+    max-width: 270px;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 20px;
+    width: 40%;
+}
+
+
+#blog .receba-novidades input {
+    margin: 10px 30px 10px 35px;
+    border: 1px solid #e2768d;
+    font-size: 20px;
+    width: 40%;
 }
 
 .receba-novidades:after {
@@ -372,24 +409,32 @@ bg-secundaria-2 {
 }
 
 .receba-novidades #botao-assinar {
-    -ms-transform: rotate(17deg); /* IE 9 */
-    -webkit-transform: rotate(17deg); /* Chrome, Safari, Opera */
-    transform: rotate(17deg);
+    -ms-transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    transform: rotate(12deg);
     -webkit-backface-visibility: hidden;
-    font-size: 23px;
+    font-size: 24px;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     color: #713821;
     z-index: 99;
     display: flex;
-    top: -20px;
+    top: 30px;
+    width: 110%;
+    right: 25%;
+}
+
+
+#blog .receba-novidades #botao-assinar {
+    width: 130%;
+    right: 15%;
 }
 
 .blog-titulo {
-    font-size: 40px;
+    font-size: 39px;
     font-family: "LavanderiaRegular";
     line-height: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     color: #f294a5;
 }
 
@@ -460,7 +505,7 @@ textarea.input-custom {
 
 .receba-novidades .assine-receba {
     font-family: "LavanderiaRegular";
-    font-size: 28px;
+    font-size: 32px;
 }
 
 @media only screen and (max-width: 800px) {

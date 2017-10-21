@@ -24,7 +24,7 @@
 }
 
 #encomenda-imagem {
-    margin-top: -15%;
+    margin-top: -12%;
 }
 
 #encomenda-imagem > img {
@@ -34,7 +34,7 @@
 #botao-encomendar {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
-    font-size: 26px;
+    font-size: 24px;
     color: white;
     bottom: 0;
     position: relative;
@@ -108,8 +108,8 @@
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
     -webkit-backface-visibility: hidden;
-    left: 72%;
-    top: 41%;
+    left: 67%;
+    top: 35%;
 
 }
 
@@ -132,11 +132,11 @@
 }
 
 #seja-franqueado {
-    height: 300px;
-    width: 500px;
-    -ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
+    height: 380px;
+    width: 545px;
+    /*-ms-transform: rotate(7deg);*/ /* IE 9 */
+    /*-webkit-transform: rotate(7deg);*/ /* Chrome, Safari, Opera */
+    /*transform: rotate(7deg);*/
     float: right;
 }
 
@@ -153,10 +153,15 @@
     position: absolute;
     -ms-transform: rotate(-10deg); /* IE 9 */
     -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
-    transform: rotate(-10deg);
-    margin-bottom: 270px;
+    transform: rotate(-7deg);
+    margin-bottom: 320px;
     margin-left: -30px;
     -webkit-backface-visibility: hidden;
+}
+
+#botao-franqueado, #botao-saiba-ser{
+	/*background: linear-gradient(to right, #ed8ea2 0%, #f7b4c6 40%, #ffbecc 50%, #ed8ea2 90%, #e2768d 100%);*/
+	background: linear-gradient(to right, #ed8ea2 30%, #f7b4c6 50%, #ffbecc 55%, #ed8ea2 70%, #e2768d 100%);
 }
 
 #seja-franqueado #botao-saiba-ser {
@@ -166,12 +171,12 @@
     color: white;
     bottom: 0;
     position: absolute;
-    -ms-transform: rotate(4deg); /* IE 9 */
-    -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
-    transform: rotate(4deg);
+    -ms-transform: rotate(6deg); /* IE 9 */
+    -webkit-transform: rotate(6deg); /* Chrome, Safari, Opera */
+    transform: rotate(6deg);
     height: 60px;
     margin-left: 50px;
-    margin-bottom: -16px;
+    margin-bottom: 10px;
     -webkit-backface-visibility: hidden;
     display: flex;
 }
@@ -194,5 +199,34 @@
         height: 350px;
         text-align: center;
     }
+}
+
+.encomenda_coracao_left{
+	width: 16px !important;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.encomenda_coracao_right{
+	width: 16px !important;
+    position: absolute;
+    margin-top: 40px;
+}
+
+#descubra-encontrar{
+	padding: 5px 10px;
+}
+
+#descubra-encontrar span{
+	margin: 10px 45px 10px 45px;
+}
+
+.margin-franqueado{
+	margin-left: 35px;
+}
+
+.margin-sugestoes{
+	margin-left: -35px;
 }
 

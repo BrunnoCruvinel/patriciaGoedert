@@ -74,6 +74,18 @@
     position: relative;
 }
 
+#franquias-brasil{
+	margin-bottom: 100px;
+}
+
+#botao-encomendar{
+	margin-top: 5%;
+}
+
+#quem-somos-encomenda #botao-encomendar{
+	width: 100%;
+}
+
 .foto-principal {
     -webkit-box-shadow: 0px 0px 26px 6px rgba(252,216,226,1);
     -moz-box-shadow: 0px 0px 26px 6px rgba(252,216,226,1);

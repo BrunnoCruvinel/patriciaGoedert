@@ -5,7 +5,7 @@
             <div class="row section">
                 <div class="col-md-3 col-sm-12">
                     <div class="titulo-destaque-coracao titulo-destaque-grande section">
-                        <span class="titulo-destaque-coracao">Eventos ?</span>
+                        <span class="titulo-destaque-coracao">Eventos</span>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="row section">
-                <div class="col-md-6">
+                <div class="col-md-6 margin_top_faca_encomenda">
                     <div id="faca-sua-encomenda">
 
                         <div class="titulo-destaque-medio cor-primaria-1 text-center subserction">

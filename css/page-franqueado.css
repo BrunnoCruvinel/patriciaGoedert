@@ -2,7 +2,7 @@
     background-color: #fef5f6;
 }
 
-#botao-franqueado {
+#franqueado #botao-franqueado {
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
     font-size: 25px;
@@ -11,7 +11,13 @@
     width: 340px;
     margin-left: -28px;
     margin-bottom: 50px;
-
+	background: #78bab0;
+    background: -moz-linear-gradient(left, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #78bab0), color-stop(17%, #99d5cb), color-stop(50%, #99d5cb), color-stop(84%, #78bab0), color-stop(100%, #78bab0));
+    background: -webkit-linear-gradient(left, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    background: -o-linear-gradient(left, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    background: -ms-linear-gradient(left, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    background: linear-gradient(to right, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
     -ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
@@ -59,7 +65,7 @@
     width: 80%;
     position: absolute;
     margin-left: -30px;
-    background: url("../img/coracao_ativado.png") no-repeat;
+    background: url("../img/coracao_marrom.png") no-repeat;
 }
 
 .franqueado-item-texto {

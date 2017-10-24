@@ -48,17 +48,14 @@
                             <div class="col-md-12 texto-blog">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis eget neque semper rhoncus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis eget neque semper rhoncus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis eget neque semper rhoncus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mollis eget neque semper rhoncus.Lorem ipsum dolor sit amet.Vivamus mollis eget neque semper rhoncus.Lorem ipsum dolor sit amet. Vivamus mollis eget neque semper rhoncus.Lorem ipsum dolor sit amet. Vivamus mollis eget neque semper rhoncus.Lorem ipsum dolor sit amet.
                             </div>
+							<div class="section-bottom">&nbsp;</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <div id="quem-somos-encomenda">
                         <div id="franquias-brasil" class="row text-center section-top">
-                            <div class="sombra-botao">
-                               <a href="" id="botao-franquias-brasil" class="btn botao-destaque-rosa tracejado-detalhe" role="button">
-                                   <span class="titulo-destaque-medio">Franquias no Brasil</span>
-                               </a>
-                            </div>
+                            <img src="img/franquias_brasil.png">
                         </div>
                         <div class="row titulo-destaque-medio">
                             <div class="text-center cor-primaria-1">
@@ -86,7 +83,7 @@
                         </div>
                         <br/>
                         <div class="row">
-                            <div class="col-md-3 col-sm-3 text-right">
+                            <div class="col-md-3 col-sm-3 text-left">
                                 <img src="img/carrinho_supermercado.png">
                             </div>
                             <div class="col-md-8 col-sm-8 col-xs-12">

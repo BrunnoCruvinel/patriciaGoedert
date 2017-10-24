@@ -18,12 +18,12 @@
 
 @font-face {
     font-family: LavanderiaStudy;
-    src: url(../fonts/Lavanderia-Sturdy.otf);
+    src: url(../fonts/lavanderia_sturdy.otf);
 }
 
 @font-face {
     font-family: LavanderiaRegular;
-    src: url(../fonts/Lavanderia-Regular.woff);
+    src: url(../fonts/Lavanderia-Regular.otf);
 }
 
 .cor-primaria-1 {
@@ -126,7 +126,7 @@ bg-secundaria-2 {
     background-image: url("../img/borda_superior_esquerda.png"), url("../img/borda_superior_direita.png"), url("../img/borda_inferior_esquerda.png"), url('../img/borda_inferior_direita.png');
     background-position: left top, right top, left bottom, right bottom;
     background-repeat: no-repeat;
-    padding: 40px 50px 40px 50px;
+    padding: 50px 50px 40px 50px;
 }
 
 .borda-destaque img {
@@ -253,6 +253,19 @@ bg-secundaria-2 {
     border-radius: 30%;
 }
 
+#franqueado .sombra-botao:after, #encomenda-card .sombra-botao:after {
+    content: '';
+    width: 110%;
+    height: 100%;
+    background: #808080;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 8px 5px -3px #808080;
+    z-index: -1;
+    border-radius: 20%;
+}
+
 
 .botao-destaque-rosa {
     border-radius: 0;
@@ -274,14 +287,14 @@ bg-secundaria-2 {
 }
 
 .titulo-destaque-coracao-2 > span:before {
-    background: url("../img/coracao_titulo.png") no-repeat;
+    background: url("../img/coracao_detalhe_item.png") no-repeat;
     position: absolute;
     display: block;
     content: "";
     width: 30%;
     height: 100%;
-    top: -26px;
-    left: 76px;
+    top: -5px;
+    left: 45px;
 }
 
 .titulo-destaque-coracao {
@@ -481,7 +494,7 @@ bg-secundaria-2 {
 
 .subserction {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .input-custom {

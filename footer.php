@@ -1,12 +1,6 @@
 <section id="rodape" class="faixa-listrada-rosa">
     <div id="faixa-superior" class="faixa-listrada-verde tracejado-detalhe">
         <!-- condicional para mostrar apenas na home -->
-        <div class="row text-center">
-            <div id="ver-todos-post" class="texto-normal btn botao-destaque-rosa">
-                Ver todos os post
-            </div>
-        </div>
-
     </div>
     <div id="rodape-conteudo" class="container">
         <div class="row">

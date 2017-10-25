@@ -55,7 +55,9 @@
                 <div class="col-md-6 col-sm-12 col-xs-12">
                     <div id="quem-somos-encomenda">
                         <div id="franquias-brasil" class="row text-center section-top">
-                            <img src="img/franquias_brasil.png">
+                            <a href="#">
+								<img src="img/franquias_brasil.png">
+							</a>
                         </div>
                         <div class="row titulo-destaque-medio">
                             <div class="text-center cor-primaria-1">

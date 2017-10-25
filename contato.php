@@ -5,7 +5,7 @@
             <div class="row section-top">
                 <div class="col-md-3 col-sm-12 section">
                     <div class="titulo-destaque-coracao titulo-destaque-grande">
-                        <span class="titulo-destaque-coracao">Contato ?</span>
+                        <span class="titulo-destaque-coracao">Contato</span>
                     </div>
                 </div>
             </div>
@@ -21,16 +21,16 @@
                         </form>
                         <br>
                         <div class="row" style="display: flex; align-items: center">
-                            <div class="col-md-2 text-right">
+                            <div class="col-md-2 text-center">
                                 <img src="img/coracao.png" style="width: 16px; left: 17px; top: -12px; position: absolute;">
                                 <img src="img/carrinho_entrega.png" alt="" style="width: 32px;">
                             </div>
-                            <div class="col-md-7" style="font-size: 12px;">
+                            <div class="col-md-7" style="font-size: 12px;margin-left: -4%;">
                                 <strong><span class="cor-primaria-2">Entregas somente na região de</span><br>
                                     <span class="cor-secundaria-1">Florianópolis, São José, Biguçu e Palhoça</span></strong>
                             </div>
                             <div class="botao-enviar-contato col-md-3">
-                                <img src="img/coracao.png" style="width: 16px; right: -19px; top: -26px; position: absolute;">
+                                <img src="img/coracao.png" style="width: 16px; right: -30px; top: -26px; position: absolute;">
                                 <a id="enviar-comentario" class="btn btn-sm botao-destaque-verde tracejado-detalhe">Enviar</a>
                             </div>
                         </div>

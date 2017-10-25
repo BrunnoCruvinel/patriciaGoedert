@@ -9,16 +9,18 @@
                 </div>
             </div>
 
-            <div class="col-md-9 col-sm-12">
+            <div class="col-md-9 col-sm-12 padding-blog-assine">
                 <div class="detalhe-bolinho">
                     <img src="img/bolinho.png" alt="" style="width: 160px; position: absolute; z-index: -1;">
                 </div>
-                <div class="receba-novidades tracejado-detalhe">
+                <div class="receba-novidades tracejado-detalhe-maior">
                     <div class="row">
-                        <div class="col-md-12 receba-novidades-conteudo">
-                            <span class="titulo-destaque-pequeno">Assine e receba novidades</span>
+                        <div class="col-md-9 col-sm-9 col-xs-9 receba-novidades-conteudo">
+                            <span class="assine-receba">Assine e receba novidades</span>
                             <input type="text" name="email" placeholder="Seu e-mail">
-                            <a id="botao-assinar" ref="" class="btn btn-sm botao-destaque-verde tracejado-detalhe" role="button"><span>Quero Assinar</span></a>
+                        </div>
+                        <div class="col-md-3">
+                            <a id="botao-assinar" ref="" class="btn btn-sm botao-destaque-verde tracejado-detalhe sombra-simples" role="button"><span>Quero Assinar</span></a>
                         </div>
                     </div>
                 </div>

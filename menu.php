@@ -10,7 +10,9 @@
     <nav id="menu-items" class="">
         <div class="container">
                 <div class="">
-                    <img src="img/logo.png" alt="" class="logo">
+					<a href="/">
+						<img src="img/logo.png" alt="" class="logo">
+					</a>
                 </div>
                 <div class="menu-lista">
                     <ul class="menu-item">

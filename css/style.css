@@ -23,7 +23,7 @@
 
 @font-face {
     font-family: LavanderiaRegular;
-    src: url(../fonts/Lavanderia-Regular.otf);
+    src: url(../fonts/lavanderia-regular_0.otf);
 }
 
 .cor-primaria-1 {
@@ -366,10 +366,10 @@ bg-secundaria-2 {
 }
 
 .receba-novidades-conteudo{
-	margin-top: 8%;
-    -ms-transform: rotate(-4deg);
-    -webkit-transform: rotate(-4deg);
-    transform: rotate(-4deg);
+	margin-top: 9%;
+    -ms-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
 }
 
 .receba-novidades .row {

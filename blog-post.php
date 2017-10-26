@@ -113,17 +113,17 @@
                         </div>
                         <div class="col-md-10">
                             <div class="row">
-                                <div class="col-md-12 titulo-destaque-pequeno cor-secundaria-1">
+                                <div class="col-md-12 titulo-destaque-pequeno cor-secundaria-1 margin_titulo">
                                     Fulano
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="col-md-12 texto-blog">
+                                <div class="col-md-12 texto-blog comentario-texto">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor in.
                                 </div>
                                 <div class="opcoes-comentario titulo-comentario cor-terciaria-1">
-                                    <img src="img/seta-preta-baixo.png" alt="">  <img src="img/seta-preta-cima.png" alt="">
+                                    <img src="img/seta-preta-baixo.png" alt="">&nbsp; <img src="img/div_setas.png" alt="">&nbsp;  <img src="img/seta-preta-cima.png" alt="">
                                     <small><span>Responder</span></small>
                                     <small><span>Compartilhar</span></small>
                                 </div>
@@ -134,7 +134,7 @@
                 <div class="col-md-5">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <div id="pesquisa-blog" class="faixa-listrada-verde tracejado-detalhe">
+                            <div id="pesquisa-blog" class="fundo_pesquisa tracejado-detalhe">
                                 <input type="text" placeholder="Pesquisar">
                             </div>
                         </div>
@@ -156,10 +156,10 @@
                                 </div>
                             </div>
                             <ul class="titulo-destaque-pequeno cor-terciaria-1">
-                                <li class="items-categoria">Categoria 1</li>
-                                <li class="items-categoria">Categoria 2</li>
-                                <li class="items-categoria">Categoria 3</li>
-                                <li class="items-categoria">Categoria 4</li>
+                                <li class="items-categoria"><a href="#">Categoria 1</a></li>
+                                <li class="items-categoria"><a href="#">Categoria 2</a></li>
+                                <li class="items-categoria"><a href="#">Categoria 3</a></li>
+                                <li class="items-categoria"><a href="#">Categoria 4</a></li>
                             </ul>
                         </div>
                     </div>
@@ -167,8 +167,8 @@
                     <div id="blog-instagram" class="row section">
                         <div class="col-md-12 text-center">
                             <div class="section-top">
-                                <div id="titulo-instagram" class="faixa-listrada-verde titulo-destaque-medio cor-terciaria-1 tracejado-detalhe">
-                                    <span> Instagram </span>
+                                <div id="titulo-instagram" class="faixa-listrada-instagram titulo-destaque-medio cor-terciaria-1">
+								
                                 </div>
                             </div>
                             <div id="blog-instagram-imagens">

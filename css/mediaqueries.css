@@ -2,7 +2,34 @@
 
 /* Small Devices, Tablets */
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+	
+	#home-conteudo #home-encomenda-online{
+		    background-size: auto;
+	}
+	
+	#franqueado .sombra-botao:after, #encomenda-card .sombra-botao:after{
+		width: 98%;
+		margin-left: 1%;
+	}
+	
+	#botao-encomendar{
+		width: 100%;
+	}
+	
+	.sombra-botao{
+		position: relative;
+	}
+	
+	.botao-destaque-verde > span, .botao-destaque-rosa > span{
+		margin: 10px 0px 10px 0px;
+	}
+	
+	#botao-encomendar{
+		font-size: 22px;
+	}
+	
+}
 
 
 /* Medium Devices, Desktops */

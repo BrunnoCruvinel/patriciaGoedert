@@ -415,6 +415,7 @@ bg-secundaria-2 {
     border: 1px solid #e2768d;
     font-size: 20px;
     width: 40%;
+	padding-left: 10px;
 }
 
 .receba-novidades:after {
@@ -519,6 +520,26 @@ textarea.input-custom {
 .receba-novidades .assine-receba {
     font-family: "LavanderiaRegular";
     font-size: 32px;
+}
+
+#ver-todos-post.btn.active,#ver-todos-post.btn:active{
+	background: #e2768d;
+    background: -moz-linear-gradient(left, #ed8ea2 0%, rgba(247, 180, 198, 0.98) 14%, #ffbecc 50%, #ed8ea2 85%, #e2768d 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #ed8ea2), color-stop(14%, #f7b4c6), color-stop(50%, #ffbecc), color-stop(85%, #ed8ea2), color-stop(100%, #e2768d));
+    background: -webkit-linear-gradient(left, #ed8ea2 0%, #f7b4c6 14%, #ffbecc 50%, #ed8ea2 85%, #e2768d 100%);
+    background: -o-linear-gradient(left, #ed8ea2 0%, #f7b4c6 14%, #ffbecc 50%, #ed8ea2 85%, #e2768d 100%);
+    background: -ms-linear-gradient(left, #ed8ea2 0%, #f7b4c6 14%, #ffbecc 50%, #ed8ea2 85%, #e2768d 100%);
+    background: linear-gradient(to right, #ed8ea2 0%, #f7b4c6 14%, #ffbecc 50%, #ed8ea2 85%, #e2768d 100%);
+}
+
+#botao-assinar.btn.active, #botao-assinar.btn:active{
+	background: #78bab0;
+    background: -moz-linear-gradient(left, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #78bab0), color-stop(17%, #99d5cb), color-stop(50%, #99d5cb), color-stop(84%, #78bab0), color-stop(100%, #78bab0));
+    background: -webkit-linear-gradient(left, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    background: -o-linear-gradient(left, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    background: -ms-linear-gradient(left, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
+    background: linear-gradient(to right, #78bab0 0%, #99d5cb 17%, #99d5cb 50%, #78bab0 84%, #78bab0 100%);
 }
 
 @media only screen and (max-width: 800px) {

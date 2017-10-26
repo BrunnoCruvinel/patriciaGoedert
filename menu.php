@@ -11,7 +11,7 @@
         <div class="container">
                 <div class="">
 					<a href="/">
-						<img src="img/logo.png" alt="" class="logo">
+						<img src="img/logo.png" alt="" class="logo img-responsive">
 					</a>
                 </div>
                 <div class="menu-lista">

@@ -22,14 +22,14 @@
                                     <div class="titulo-encomenda titulo-destaque-medio text-center cor-primaria-1">
                                         Encomende on-line direto da fábrica
                                     </div>
-									<img class="encomenda_coracao_left" src="img/coracao.png">
+									<img class="encomenda_coracao_left " src="img/coracao.png">
                                 </div>
                                 <br/>
                                 <div id="encomenda-online-conteudo" class="row">
-                                    <div class="col-md-4 text-right">
-                                        <img src="img/carrinho_entrega.png" alt="" style="width: 64px">
+                                    <div class="col-md-4 col-sm-4 col-xs-4 text-right">
+                                        <img src="img/carrinho_entrega.png" alt="" class="img-responsive" style="width: 64px">
                                     </div>
-                                    <div class="col-md-7 endereco-encomenda">
+                                    <div class="col-md-7 col-sd-7 col-xs-7 endereco-encomenda">
                                         <strong><span class="cor-primaria-2">Entregas somente na região de</span>
                                         <span class="cor-secundaria-1">Florianópolis, São José, Biguçu e Palhoça</span></strong>
                                     </div>
@@ -38,10 +38,10 @@
                                 <br/>
 								<br/>
                                 <div class="row">
-                                    <div class="col-md-3 col-sm-3 text-left">
-                                        <img src="img/carrinho_supermercado.png" style="width: 74px">
+                                    <div class="col-md-3 col-sm-3 col-xs-3 text-left">
+                                        <img src="img/carrinho_supermercado.png" img-responsive style="width: 74px">
                                     </div>
-                                    <div class="col-md-9 col-sm-9 col-xs-12">
+                                    <div class="col-md-9 col-sm-9 col-xs-9">
                                         <div class="sombra-botao"><a id="botao-encomendar" ref="" class="btn btn-sm botao-destaque-verde tracejado-detalhe" role="button"><span>Quero Encomendar</span></a></div>
                                     </div>
                                 </div>
@@ -242,4 +242,4 @@
   </div>
 </main>
 
-<?php require "footer.php"; ?>
+<?php require "footer-mais-posts.php"; ?>

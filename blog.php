@@ -34,7 +34,9 @@
                 </div>
                 <div class="col-md-6">
                     <div class="blog-titulo">
+						<a href="#">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis non purus congue.
+						</a>
                     </div>
                     <div class="texto-blog">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis non purus congue, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis non purus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis non purus congue.
@@ -49,7 +51,9 @@
                     <div class="post">
                         <div class="row">
                             <div class="blog-titulo">
+								<a href="#">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonnumy nibh euismod.
+								</a>
                             </div>
                             <div class="texto-blog">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis.
@@ -67,7 +71,9 @@
                     <div class="post">
                         <div class="row">
                             <div class="blog-titulo">
+								<a href="#">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonnumy nibh euismod. 
+								</a>
                             </div>
                             <div class="texto-blog">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis.
@@ -89,7 +95,9 @@
                             </div>
 							<div class="separador-post"></div>
                             <div class="blog-titulo">
+								<a href="#">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonnumy nibh euismod.
+								</a>
                             </div>
                             <div class="texto-blog">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ultrices felis.
@@ -107,7 +115,7 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <div class="box">
-                                <div id="pesquisa-blog" class="faixa-listrada-verde tracejado-detalhe">
+                                <div id="pesquisa-blog" class="fundo_pesquisa tracejado-detalhe">
                                     <input type="text" placeholder="Pesquisar">
                                 </div>
                             </div>

@@ -29,6 +29,228 @@
 		font-size: 22px;
 	}
 	
+	.titulo-destaque-medio{
+		font-size: 32px;
+	}
+	
+	#botao-encomendar span{
+		font-size: 20px;
+	}
+	
+	.titulo-destaque-grande{
+		font-size: 48px;
+	}
+	
+	#home-conteudo .titulo-destaque-coracao{
+		margin-top: 60px;
+	}
+	
+	#descubra #descubra-encontrar{
+		font-size: 22px;
+	}
+	
+	#descubra-encontrar span{
+		margin: 10px 10px 10px 10px;
+	}
+	
+	.sombra-botao:after{
+		width: 50%;
+	}
+	
+	#seja-franqueado {
+		height: 380px;
+		width: 498px;
+		float: none; 
+	}
+	
+	.faixa-listrada-franqueado{
+		background-size: 70% 80%;
+	}
+	
+	#seja-franqueado #botao-franqueado{
+		font-size: 30px;
+		position: relative;
+		margin-bottom: 170px;
+	}
+	
+	#seja-franqueado #botao-saiba-ser{
+		font-size: 18px;
+		position: relative;
+		height: 50px;
+		margin-left: 15px;
+		margin-bottom: 10px;
+		display: inline-block;
+	}
+	
+	#nossas-sugestoes .borda-destaque{
+		height: 320px;
+	}
+	
+	.borda-destaque{
+		width: 96%;
+	}
+	.placa_docaria_mobile{
+		width: 70%;
+	}
+	
+	#descubra #descubra-conteudo img{
+		margin-top: -10px;
+	}
+	
+	#sombra-encontrar{
+		left: 0%;
+		margin-top: 15px;
+	}
+	
+	.sombra-botao:after{
+		position: relative;
+	}
+	
+	.text_nowrap{
+		white-space: nowrap;
+	}
+	
+	#home-blog{
+		margin-top: 0px;
+	}
+	
+	.receba-novidades{
+		width: 100%;
+		height: 178px;
+		-ms-transform: rotate(0deg);
+		webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		position: relative;
+		display: inline-block;
+		margin-left: 0%;
+	}
+	
+	.receba-novidades .row{
+		background-size: 100% 100%;
+	}
+	
+	.receba-novidades-conteudo{
+		margin-top: 20%;
+		-ms-transform: rotate(-9deg);
+		-webkit-transform: rotate(-9deg);
+		transform: rotate(-9deg);
+	}
+	
+	.receba-novidades .assine-receba{
+		font-size: 20px;
+	}
+	
+	.receba-novidades input{
+		margin: 10px 0px 10px 0px;
+		height: 35px;
+		max-width: 270px;
+		font-size: 14px;
+		width: 37%;
+		padding-left: 0px;
+	}
+	
+	.receba-novidades #botao-assinar{
+		-ms-transform: rotate(8deg);
+		-webkit-transform: rotate(8deg);
+		transform: rotate(8deg);
+		font-size: 16px;
+		top: -120px;
+		width: 110%;
+		right: -236%;
+	}
+	
+	.tracejado-detalhe-maior:before{
+		background: none;
+	}
+	
+	.tracejado-detalhe-maior:after{
+		background: none;
+	}
+	
+	#home-blog .receba-novidades div{
+		padding-left: 0px;
+		text-align: left;
+	}
+	
+	.blog-titulo{
+		font-size: 28px;
+	}
+	
+	.blog-subtitulo{
+		font-size: 24px;
+	}
+	
+	#rodape{
+		font-size: 10px;
+	}
+	
+	#rodape-conteudo #dados-contato{
+		margin-left: -5px;
+	}
+	
+	.texto-blog{
+		font-size: 14px;
+	}
+	
+	#menu-items .logo{
+		width: 50%;
+		left: 35%;
+	}
+	
+	.titulo-destaque-medio{
+		font-size: 30px;
+	}
+	
+	#destaque-endereco{
+		font-size: 14px;
+	}
+	
+	#encontre-loja{
+		font-size: 18px;
+		height: 40px;
+		-ms-transform: rotate(-10deg);
+		-webkit-transform: rotate(-10deg);
+		transform: rotate(-10deg);
+	}
+	
+	.input-custom{
+		width: 95%;
+		height: 30px;
+	}
+	
+	#fazer-encomenda-docaria{
+		width: 50%;
+		font-size: 21px;
+		left: 20%;
+	}
+	
+	#loja-mais-proxima form{
+		padding: 40px 20px 0px 20px;
+	}
+	
+	#loja-mais-proxima{
+		margin-top: 40px;
+	}
+	
+	#docaria #destaque-endereco{
+		width: 390px;
+		margin-left: 0px;
+	}
+	
+	#link-instagram a{
+		top: 37px;
+		left: 125px;
+	}
+	
+	#endereco-redesocial{
+		width: 120px;
+		margin-left: -40px;
+	}
+	
+	#docaria-carousel.owl-carousel{
+		width: 390px;
+	}
+	
 }
 
 

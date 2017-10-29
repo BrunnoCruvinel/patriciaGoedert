@@ -39,7 +39,7 @@
 								<br/>
                                 <div class="row">
                                     <div class="col-md-3 col-sm-3 col-xs-3 text-left">
-                                        <img src="img/carrinho_supermercado.png" img-responsive style="width: 74px">
+                                        <img src="img/carrinho_supermercado.png" class="img-responsive" style="width: 74px">
                                     </div>
                                     <div class="col-md-9 col-sm-9 col-xs-9">
                                         <div class="sombra-botao"><a id="botao-encomendar" ref="" class="btn btn-sm botao-destaque-verde tracejado-detalhe" role="button"><span>Quero Encomendar</span></a></div>
@@ -132,11 +132,13 @@
               <div id="descubra-conteudo">
                   <div class="container">
                       <span class="titulo-destaque-medio cor-primaria-1">Descubra a </span>
-                      <img src="img/placa_docaria.png">
-                      <span class="titulo-destaque-medio cor-primaria-1">mais próxima de você </span>
-                      <div id="sombra-encontrar" class="sombra-botao">
+                      <img class="placa_docaria_mobile" src="img/placa_docaria.png">
+                      <span class="titulo-destaque-medio cor-primaria-1 text_nowrap">mais próxima de você </span>
+					  <div class="text_inline">
+						<div id="sombra-encontrar" class="sombra-botao">
                           <a href="" id="descubra-encontrar" class="btn btn-sm botao-destaque-verde tracejado-detalhe" role="button"><span >Encontrar</span></a>
-                      </div>
+						</div>
+					  </div>
                   </div>
               </div>
           </section>
@@ -192,7 +194,7 @@
                       <div class="col-md-10 col-sm-12">
                           <div class="receba-novidades tracejado-detalhe-maior">
                               <div class="row">
-                                  <div class="col-md-9 col-sm-9 col-xs-9 receba-novidades-conteudo">
+                                  <div class="col-md-9 col-sm-9 col-xs-12 receba-novidades-conteudo">
                                       <span class="assine-receba">Assine e receba novidades</span>
                                       <input type="text" name="email" placeholder="Seu e-mail">
                                   </div>

@@ -64,10 +64,10 @@
                 <div class="col-md-5 col-sm-5 col-xs-12 col cor-terciaria-1 text-right section-top">
                     <div id="endereco-redesocial" class="tracejado-detalhe faixa-listrada-rosa sombra-simples">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
                                 <img src="img/facebook.png" alt="" style="width: 15px">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
                                 <img src="img/instagram.png" alt="" style="width: 30px; height: 30px">
                             </div>
                         </div>

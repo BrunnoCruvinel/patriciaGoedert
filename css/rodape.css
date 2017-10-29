@@ -55,18 +55,19 @@
 }
 
 #ver-todos-post {
-    -ms-transform: rotate(10deg); /* IE 9 */
-    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
-    transform: rotate(10deg);
+    /*-ms-transform: rotate(10deg);*/ /* IE 9 */
+    /*-webkit-transform: rotate(10deg);*/ /* Chrome, Safari, Opera */
+    /*transform: rotate(10deg);*/
     z-index: 2 !important;
     text-align: center;
     color: white;
     text-align: center;
-    padding: 5px 20px 5px 20px;
+    /*padding: 5px 20px 5px 20px;*/
     font-family: "Open Sans", cursive;
     font-weight: lighter;
     font-size: 20px;
     position: relative;
+	margin-top: -8px;
 }
 
 #faixa-superior .row {

@@ -86,10 +86,10 @@
                         </div>
                     </div>
                     <div class="row section">
-                        <div class="col-md-2 col-md-offset-2 text-right">
+                        <div class="col-md-2 col-sm-2 col-xs-2 col-md-offset-2 text-right">
                             <img src="img/carrinho_entrega.png" alt="" style="width: 48px; position: relative; top: 4px">
                         </div>
-                        <div class="col-md-8" style="font-size: 14px">
+                        <div class="col-md-8 col-sm-8 col-xs-2" style="font-size: 12px">
                             <strong><span class="cor-primaria-2">Entregas somente na região de</span><br>
                                 <span class="cor-secundaria-1">Florianópolis, São José, Biguçu e Palhoça</span></strong>
                         </div>

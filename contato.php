@@ -22,7 +22,7 @@
                         <br>
                         <div class="row" style="display: flex; align-items: center">
                             <div class="col-md-2 text-center">
-                                <img src="img/coracao.png" style="width: 16px; left: 17px; top: -12px; position: absolute;">
+                                <img class="coracao_entrega_esquerdo" src="img/coracao.png" style="width: 16px; left: 17px; top: -12px; position: absolute;">
                                 <img src="img/carrinho_entrega.png" alt="" style="width: 32px;">
                             </div>
                             <div class="col-md-7" style="font-size: 12px;margin-left: -4%;">

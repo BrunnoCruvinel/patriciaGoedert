@@ -7,6 +7,10 @@ $(document).ready(function () {
     $("#menu-items").addClass('menu-responsive');
     $("#menu-items ul.menu-item").slideToggle('slow');
   });
+  
+  $(".mais").click(function() {
+    $(".menu").slideToggle();
+  });
 
 
   $("#menu-items ul.menu-item > li").on('click', function () {

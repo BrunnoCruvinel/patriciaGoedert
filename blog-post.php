@@ -15,7 +15,7 @@
                 </div>
                 <div class="receba-novidades tracejado-detalhe-maior">
                     <div class="row">
-                        <div class="col-md-9 col-sm-9 col-xs-9 receba-novidades-conteudo">
+                        <div class="col-md-9 col-sm-9 col-xs-12 receba-novidades-conteudo">
                             <span class="assine-receba">Assine e receba novidades</span>
                             <input type="text" name="email" placeholder="Seu e-mail">
                         </div>
@@ -75,10 +75,10 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-8 cor-terciaria-1 titulo-comentario">
+                        <div class="col-md-8 col-sm-8 col-xs-8 cor-terciaria-1 titulo-comentario">
                             <span class="">10</span> Comentários
                         </div>
-                        <div class="col-md-4 text-right titulo-comentario cor-terciaria-1">
+                        <div class="col-md-4 col-sm-4 col-xs-4 text-right titulo-comentario cor-terciaria-1">
                             Entrar <img src="img/seta-rosa-baixo.png" alt="">
                         </div>
                     </div>
@@ -86,32 +86,32 @@
                     <hr/>
 
                     <div class="row blog-post-textos titulo-comentario cor-terciaria-1">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-3 col-xs-3">
                             <img src="img/coracao.png"> <small>Recomentar</small>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-3 col-xs-3">
                             <img src="img/comparilhar.png" alt=""><small> Compartilhar</small>
                         </div>
-                        <div class="col-md-6 text-right">
+                        <div class="col-md-6 col-sm-6 col-xs-6 text-right">
                             <small> Ordernar por mais votados</small>
                             <img src="img/seta-rosa-baixo.png" alt="">
                         </div>
                     </div>
 
                     <div class="row blog-post-comentar section">
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-2 col-xs-2">
                             <img src="img/avatar.png">
                         </div>
-                        <div class="col-md-10">
+                        <div class="col-md-10 col-sm-10 col-xs-10">
                             <textarea name="comentario" placeholder="Participe da discussão"></textarea>
                         </div>
                     </div>
 
                     <div class="row blog-post-comentar">
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-sm-2 col-xs-2">
                             <img src="img/avatar.png">
                         </div>
-                        <div class="col-md-10">
+                        <div class="col-md-10 col-sm-10 col-xs-10">
                             <div class="row">
                                 <div class="col-md-12 titulo-destaque-pequeno cor-secundaria-1 margin_titulo">
                                     Fulano
@@ -134,7 +134,7 @@
                 <div class="col-md-5">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <div id="pesquisa-blog" class="fundo_pesquisa tracejado-detalhe">
+                            <div id="pesquisa-blog" class="fundo_pesquisa">
                                 <input type="text" placeholder="Pesquisar">
                             </div>
                         </div>
@@ -173,7 +173,7 @@
                             </div>
                             <div id="blog-instagram-imagens">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 margin_bottom_instagram">
                                         <img class="img-responsive" src="img/foto-doce1.png" alt="">
                                     </div>
                                     <div class="col-md-6">
@@ -181,7 +181,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 margin_bottom_instagram">
                                         <img class="img-responsive" src="img/foto-doce1.png" alt="">
                                     </div>
                                     <div class="col-md-6">
@@ -189,7 +189,7 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 margin_bottom_instagram">
                                         <img class="img-responsive" src="img/foto-doce1.png" alt="">
                                     </div>
                                     <div class="col-md-6">

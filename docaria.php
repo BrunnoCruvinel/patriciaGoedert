@@ -65,10 +65,10 @@
                     <div id="endereco-redesocial" class="tracejado-detalhe faixa-listrada-rosa sombra-simples">
                         <div class="row">
                             <div class="col-md-6 col-sm-6 col-xs-6">
-                                <img src="img/facebook.png" alt="" style="width: 15px">
+                                <img class="img_facebook" src="img/facebook.png" alt="" style="width: 15px">
                             </div>
                             <div class="col-md-6 col-sm-6 col-xs-6">
-                                <img src="img/instagram.png" alt="" style="width: 30px; height: 30px">
+                                <img class="img_insta" src="img/instagram.png" alt="" style="width: 30px; height: 30px">
                             </div>
                         </div>
                         <div id="link-instagram">

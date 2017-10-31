@@ -67,10 +67,10 @@
                         <br/>
                         <div class="row">
 
-                            <div class="col-md-3 col-sm-3 text-right destaque-coracao-before">
+                            <div class="col-md-3 col-sm-3 col-xs-3 text-right destaque-coracao-before">
                                 <img src="img/carrinho_entrega.png" alt="" style="width: 64px">
                             </div>
-                            <div id="quem-somos-encomenda-endereco" class="col-md-8 col-sm-8 destaque-coracao-after">
+                            <div id="quem-somos-encomenda-endereco" class="col-md-8 col-sm-8 col-xs-8 destaque-coracao-after">
                                 <strong><span class="cor-primaria-2">Entregas somente na região de</span><br>
                                     <span class="cor-secundaria-1">Florianópolis, São José, Biguçu e Palhoça</span></strong>
                             </div>
@@ -78,17 +78,17 @@
                         </div>
                         <br>
                         <div class="row">
-                            <div id="quem-somos-encomenda-telefone" class="col-md-11 col-sm-11 col-md-offset-1 com-sm-offset-1 text-center">
+                            <div id="quem-somos-encomenda-telefone" class="col-md-11 col-sm-11 col-xs-11 col-md-offset-1 com-sm-offset-1 text-center">
                                 <img src="img/icon-telefone.png" alt="" style="width: 32px">
                                 <span class="cor-secundaria-1">(48) 3331 - 1800</span>
                             </div>
                         </div>
                         <br/>
                         <div class="row">
-                            <div class="col-md-3 col-sm-3 text-left">
+                            <div class="col-md-3 col-sm-3 col-xs-3 text-left">
                                 <img src="img/carrinho_supermercado.png">
                             </div>
-                            <div class="col-md-8 col-sm-8 col-xs-12">
+                            <div class="col-md-8 col-sm-8 col-xs-8">
                                 <a id="botao-encomendar" ref="" class="btn btn-sm botao-destaque-verde tracejado-detalhe sombra-simples" role="button"><span>Quero Encomendar</span></a>
                             </div>
                         </div>

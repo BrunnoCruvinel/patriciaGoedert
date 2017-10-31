@@ -13,7 +13,13 @@
 					<a href="/">
 						<img src="img/logo.png" alt="" class="logo img-responsive">
 					</a>
+					<div class="menu_burger">
+						<a href="javascript:void(0)" class="mais hidden-lg hidden-md">
+							<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+						</a>
+					<div>
                 </div>
+				
                 <div class="menu-lista">
                     <ul class="menu-item">
                         <li>
@@ -43,4 +49,19 @@
             </div>
         </div>
     </nav>
+	<div class="container">
+			<div class="row">
+				<nav class="col-md-12 col-sm-12 col-xs-12 np">
+					<ul class="menu menu-item titulo-destaque-pequeno" style="display: none;">
+						<li><a href="cardapio.php">Cardápio</a></li>
+                        <li><a href="eventos.php">Eventos</a></li>
+                        <li><a href="docaria.php">Doçaria</a></li>
+                        <li><a href="franqueado.php">Seja um Franqueado</a></li>
+                        <li><a href="quem-somos.php">Quem Somos</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+						<li><a href="contato.php">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 </section>

@@ -233,23 +233,124 @@
 	}
 	
 	#docaria #destaque-endereco{
-		width: 390px;
-		margin-left: 0px;
+		width: 380px;
+		margin-left: 10px;
 	}
 	
 	#link-instagram a{
 		top: 37px;
-		left: 125px;
+		left: 110px;
 	}
 	
 	#endereco-redesocial{
-		width: 120px;
-		margin-left: -40px;
+		width: 100px;
+		margin-left: -10px;
 	}
 	
 	#docaria-carousel.owl-carousel{
 		width: 390px;
 	}
+	
+	#fazer-encomenda-docaria.tracejado-detalhe:before{
+		margin-top: -6px;
+	}
+	
+	#docaria-cardapio{
+		width: 100px;
+		height: 40px;
+		font-size: 12px;
+	}
+	
+	#docaria .section-top{
+		margin-top: 90px;
+	}
+	
+	.img_facebook{
+		width: 10px !important;
+	}
+	
+	.img_insta{
+		width: 10px !important;
+	}
+	
+	#como-ser-franqueado .titulo-destaque-grande{
+		font-size: 40px;
+	}
+	
+	#franqueado #botao-franqueado{
+		width: 250px;
+		font-size: 20px;
+	}
+	
+	.titulo-destaque-pequeno{
+		font-size: 26px !important;
+	}
+	
+	.detalhe-bolinho{
+		left: 30%;
+	}
+	
+	.receba-novidades div{
+		padding-left: 5px;
+		text-align: left;
+	}
+	
+	#blog .receba-novidades input{
+		margin: 10px 30px 10px 10px;
+		font-size: 15px;
+		width: 30%;
+	}
+	
+	#blog .receba-novidades #botao-assinar{
+		width: 110%;
+		right: -236%;
+	}
+	
+	.margin_bottom_instagram{
+		margin-bottom: 30px;
+	}
+	
+	.blog-post-comentar textarea{
+		margin-left: 2%;
+		font-size: 14px;
+	}
+	
+	#pesquisa-blog{
+		margin-top: 30px;
+	}
+	
+	#enviar-comentario{
+		font-size: 18px;
+		width: 80px;
+		min-height: 40px;
+	}
+	
+	.coracao_entrega_esquerdo{
+		left: 0px;
+	}
+	
+	.menu_burger .glyphicon-menu-hamburger{
+		font-size: 40px;
+		margin-top: -42px;
+		float: right;
+		color: white;
+	}
+	
+	#menu .menu a{
+		text-decoration: none;
+		color: #713821;
+		font-family: 'LavanderiaRegular';
+	}
+	
+	.menu-item{
+		text-align: center;
+	}
+	
+	#menu .menu li{
+		padding-bottom: 10px;
+	}
+	
+
 	
 }
 
